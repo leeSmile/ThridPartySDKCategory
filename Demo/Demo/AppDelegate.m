@@ -28,10 +28,10 @@
 - (void)setUpThridPartySDKWithOptions:(NSDictionary *)launchOptions
 {
     //注册ShareSDK
-    [self registerShareSDK];
+    [AppDelegate registerShareSDK];
     
     //注册极光推送
-    [self registerJPushSDKWithOptions:launchOptions];
+    [AppDelegate registerJPushSDKWithOptions:launchOptions];
     
     //注册微信支付
     [AppDelegate registerWeChatWithAppID:@"AppID"];

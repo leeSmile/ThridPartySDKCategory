@@ -13,7 +13,7 @@
 /**
  * shareSDK分享
 */
-- (void)registerShareSDK;
++ (void)registerShareSDK;
 
 /**
  *  定制平台分享内容分享

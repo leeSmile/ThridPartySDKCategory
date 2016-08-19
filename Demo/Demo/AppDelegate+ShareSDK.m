@@ -26,7 +26,7 @@ static NSString *WeChatSecret = @"WeChatSecret";
 @implementation AppDelegate (ShareSDK)
 
 #pragma mark 分享平台初始化
-- (void)registerShareSDK
++ (void)registerShareSDK
 {
     /**
      *  设置ShareSDK的appKey，如果尚未在ShareSDK官网注册过App，请移步到http://mob.com/login 登录后台进行应用注册

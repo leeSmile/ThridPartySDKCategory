@@ -12,6 +12,6 @@
 /**
  * 初始化JPushSDK
  */
-- (void)registerJPushSDKWithOptions:(NSDictionary *)launchOptions;
++ (void)registerJPushSDKWithOptions:(NSDictionary *)launchOptions;
 //- (void)receiveRemoteNotification:(NSDictionary *)userInfo;
 @end

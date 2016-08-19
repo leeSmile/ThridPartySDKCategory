@@ -13,7 +13,7 @@ static NSString *JPushKey = @"b5ee731d7772a1f0ef4aeb8d";
 
 @implementation AppDelegate (JPushSDK)
 
-- (void)registerJPushSDKWithOptions:(NSDictionary *)launchOptions
++ (void)registerJPushSDKWithOptions:(NSDictionary *)launchOptions
 {
     if ([[UIDevice currentDevice].systemVersion floatValue] >= 8.0) {
         //可以添加自定义categories
